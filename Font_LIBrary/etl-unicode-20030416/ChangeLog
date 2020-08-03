@@ -1,0 +1,451 @@
+$Id: ChangeLog,v 1.2 2003/04/16 14:43:57 peterlin Exp $
+	
+2003-04-16  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf - 87 glyphs added, courtesy Lars Engebretsen
+	
+	* etl24-unicode.bdf - 112 glyphs added, courtesy Lars Engebretsen
+
+2002-02-28  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* ChangeLog file created for freeunifont; merged data from
+	comments and previous RCS archives.
+
+2002-02-20  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* Added 47 glyphs to etl24-unicode to achieve ISO 10646 MES-2
+	compliance.
+	
+2002-02-19  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* Previously messed-up ISO 10646 names substituted by unique
+	(well, almost) names from Adobe glyph list for etl14-unicode,
+	etl16-unicode and etl24-unicode.
+
+	* std/CheckConformance.pl written - a Perl script for checking
+	conformance of a font file with given coded character sets.
+	
+2002-02-18  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* std/ subdirectory created with MES-1.txt, MES-2.txt and
+	MES-3b.txt files, defining character ranges for Multilingual
+	European Subset level 1, 2 and 3b, respectively. Source:
+	http://www.evertype.com/standards/iso10646/pdf/cwa13873.pdf
+
+	* std/mes-list-expand.pl written - a Perl script which expands MES
+	ranges into simple one-char-per-line list
+
+2002-02-14  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* legebla.bdf - DOS-ish characters 0x00-0x1F moved to their proper
+	ISO 10646 places. Short (Adobe) glyph names.
+
+2002-01-30  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* freeunifont (Free Unicode fonts) project CVS space populated
+	with BDF files
+
+	* project homepage <http://freeunifont.sourceforge.net/> created
+
+2001-03-07  Primoz Peterlin  <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* freeunifont (Free Unicode fonts) project registered at
+	sourceforge.net
+	
+2000-03-07  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified - 145 new glyphs on pages 0x21 and
+	0x25
+
+2000-03-02  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - created non-empty NULL (0x0000)
+	glyph as DEFAULT_CHAR
+	
+	* etl16-unicode.bdf modified - created non-empty NULL (0x0000)
+	glyph as DEFAULT_CHAR
+
+	* etl24-unicode.bdf modified:
+	- 33 glyphs added to page 0x20
+	- created non-empty NULL (0x0000) glyph as DEFAULT_CHAR
+
+2000-02-17  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - added 57 combining glyphs on page
+	0x03, courtesy of Taichi Kawabata
+
+	* etl16-unicode.bdf modified - added 49 combining glyphs to page
+	0x03, courtesy Taichi Kawabata
+
+	* etl24-unicode.bdf modified - 49 combining glyphs added to page
+	0x03, courtesy Taichi Kawabata
+
+1999-12-10  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - added 23 combining glyphs on page
+	0x03, courtesy of Taichi Kawabata
+
+	* etl16-unicode.bdf modified - added 31 combining glyphs to page
+	0x03, courtesy Taichi Kawabata
+
+	* etl24-unicode.bdf modified - 31 combining glyphs added to page
+	0x03, courtesy Taichi Kawabata
+
+	* A bug-fix release on <ftp://ftp.x.org/contrib/fonts/>
+
+1999-02-05  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified
+	- glyph 0x256b corrected thanks to error report by Jan Tomasek
+	- 10 currency symbols including EURO SIGN added to page 0x20
+	
+	* etl16-unicode.bdf modified:
+	- glyph 0x256b corrected thanks to error report of Jan Tomasek
+	- conforming to Unicode v2.1 (Unicode Technical Report #8),
+	  EURO SIGN moved to 0x20AC, EURO-CURRENCY SIGN back to 0x20A0
+	
+	* etl24-unicode.bdf modified:
+	- glyph 0x256b corrected thanks to error report by Jan Tomasek
+	- baseline in FONTBOUNDINGBOX and BBX corrected
+	- conforming to Unicode v2.1 (Unicode Technical Report #8),
+	  EURO SIGN moved to 0x20AC, EURO-CURRENCY SIGN back to 0x20A0
+
+	* A bug-fix release on <ftp://ftp.x.org/contrib/fonts/>
+
+1999-01-29  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* legebla.bdf created - This font is modelled after fonts in
+	ISO.CPI supplied with MS-DOS 6.22 and is believed to comply with
+	Part 3 of the ISO 9241 Specification. Typeface is named legebla
+	(Esperanto word for "legible").
+	
+1997-10-10  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified - page 0x1E completed.
+
+1997-04-26  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* README.etl-unicode written
+	
+	* First public release on <ftp://ftp.x.org/contrib/fonts/>
+	
+1997-01-30  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified - 91 glyphs added on page 0x04;
+	Cyrillic completed.
+
+1997-01-29  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified:
+	- 27 glyphs added on page 0x04 (Cyrillic)
+	- 8 glyphs added on page 0x20; Cyrrency Symbols completed.
+
+1997-01-27  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+	
+	* etl16-unicode.bdf modified:
+	- 88 glyphs added on page 0x1E; Latin Extended Additional completed.
+	- 130 glyphs added on page 0x04; Cyrillic completed.
+	
+1997-01-26  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified:
+	- 55 glyphs added on page 0x20; General Punctuation, Superscripts
+	  and Subscripts, Currency Symbols completed.
+	- 11 glyphs added on page 0x24; OCR completed.
+	- 132 glyphs added on page 0x1E (Latin Extended Additional).
+	
+1997-01-23  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified
+	- 102 glyphs added on pages 0x01 and 0x02; 
+	  Latin Extended B set completed.
+	- 35 glyphs added on page 0x02 (Modifier Letters)
+	
+1997-01-19  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified - 17 glyphs added on page 0x01 (Latin
+	Extended B)
+
+1997-01-18  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified - 87 glyphs added on page 0x02; IPA
+	set completed.
+
+1997-01-14  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified:
+	- 87 glyphs added on page 0x02; IPA completed.
+	- acute accent retouched on 8 glyphs on page 0x01.
+	
+1997-01-11  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified:
+	- 96 glyphs added on page 0x01; page 0x01 completed.
+	- 24 glyphs added on page 0x02; Latin Extended B completed.
+	
+1997-01-10  Mark Leisher <mleisher@crl.nmsu.edu>
+
+	* etl14-unicode.bdf modified - page 0x21 completed with 40
+	Georgian glyphs.
+
+	* etl16-unicode.bdf modified - page 0x21 completed with 40
+	Georgian glyphs.
+
+	* etl24-unicode.bdf modified - page 0x21 completed with 40
+	Georgian glyphs.
+	
+1997-01-10  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified:
+	- page 0x02 completed with 11 glyphs to match MES requirements.
+	- page 0x03 completed with 5 glyphs to match MES requirements.
+	- page 0x04 completed with 2 glyphs to match MES requirements.
+	- page 0x20 completed with 29 glyphs to match MES requirements.
+	- page 0x21 completed with 15 glyphs to match MES requirements.
+	- page 0x22 completed with 16 glyphs to match MES requirements.
+	- page 0x25 completed with 18 glyphs to match MES requirements.
+	- page 0x26 completed with 11 glyphs to match MES requirements.
+	- page 0xFB completed with 2 glyphs to match MES requirements.
+	
+	* etl24-unicode.bdf modified:
+	- EURO-CURRENCY SIGN added
+	- LATIN SMALL LETTER R WITH LONG LEG (0x027C) corrected
+
+1997-01-09  Mark Leisher <mleisher@crl.nmsu.edu>
+
+	* etl14-unicode.bdf modified - page 0x0A completed with 85
+	Armenian glyphs.
+
+	* etl16-unicode.bdf modified - page 0x0A completed with 85
+	Armenian glyphs.
+
+	* etl24-unicode.bdf modified - page 0x0A completed with 85
+	Armenian glyphs.
+
+1997-01-07  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - page 0x1F completed with 233 glyphs
+	to match MES requirements.
+
+	* etl16-unicode.bdf modified:
+	- Added EURO-CURRENCY SIGN (0x20A0).
+	- LATIN SMALL LETTER R WITH LONG LEG (0x027C) corrected
+	
+1996-12-30  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified - page 0x04 completed with 2 glyphs
+	to match MES requirements.
+
+	* etl24-unicode.bdf modified - page 0x04 completed with 2 glyphs
+	to match MES requirements
+
+1996-12-29  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified:
+	- page 0x03 completed with 5 glyphs to match MES requirements.
+	- page 0x1F completed with 233 glyphs to match MES requirements.
+	- page 0x20 completed with 29 glyphs to match MES requirements.
+	- page 0x22 completed with 16 glyphs to match MES requirements.
+	- page 0x23 completed with 4 glyphs to match MES requirements.
+	
+	* etl24-unicode.bdf modified - page 0xFB completed with 2 glyphs
+	to match MES requirements
+
+1996-12-26  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl24-unicode.bdf modified - page 0x1F completed with 233 glyphs
+	to match MES requirements
+
+1996-12-07 P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - page 0x1E completed with 26 glyphs
+	to match MES requirements.
+
+1996-12-06  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified:
+	- page 0x01 completed with 28 glyphs to match MES requirements.
+	- page 0x02 completed with 6 glyphs to match MES requirements.
+	- page 0x1E completed with 26 glyphs to match MES requirements.
+	- page 0x21 completed with 15 glyphs to match MES requirements.
+	- page 0x26 completed with 11 glyphs to match MES requirements.
+	- page 0xFB completed with 2 glyphs to match MES requirements.
+	
+	* etl24-unicode.bdf modified:
+	- page 0x01 completed with 28 glyphs to match MES requirements
+	- page 0x02 completed with 6 glyphs to match MES requirements
+	- page 0x03 completed with 5 glyphs to match MES requirements
+	- page 0x1E completed with 26 glyphs to match MES requirements
+	- page 0x20 completed with 32 glyphs to match MES requirements
+	- page 0x21 completed with 16 glyphs to match MES requirements
+	- page 0x22 completed with 16 glyphs to match MES requirements
+	- page 0x23 completed with 4 glyphs to match MES requirements
+	- page 0x25 completed with 18 glyphs to match MES requirements
+	- page 0x26 completed with 11 glyphs to match MES requirements
+	
+1996-12-05  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - 40 ``box drawing'' glyphs and MES
+	glyphs from Latin Extended B added
+	
+	* etl16-unicode.bdf modified - 40 ``box drawing'' glyphs added.
+	
+	* etl16-unicode.bdf modified - page 0x25 completed with 18 glyphs
+	to match MES requirements.
+	
+	* etl24-unicode.bdf modified  - 40 ``box drawing'' glyphs added
+	
+1996-11-30  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl16-unicode.bdf modified - Arabic/Indic digits retouched
+
+1996-11-29  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf modified - 19 characters added to complete
+	Latin Extended A table; some existing characters in Latin Extended
+	A retouched
+
+	* etl16-unicode.bdf modified - 19 characters added to complete
+	Latin Extended A table; some existing characters in Latin Extended
+	A retouched
+
+	* etl24-unicode.bdf modified - 19 characters added to complete
+	Latin Extended A table; some existing characters in Latin Extended
+	A retouched
+
+1996-11-24  P. Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+  
+	* etl16-unicode.bdf modified - Added ISO 8859-6 (Latin/Arabic)
+	from Roman Czyborra's WWW page.  Arabic/indic digits probably need
+	revision.
+	
+	Original comments:
+	! This font is based on etl16-hebrew.bdf
+	! 92.12.1 created by Takahashi N. <ntakahas@etl.go.jp>
+	! The Arabic glyphs were taken from iso06.f16 as found in
+	! //ftp.uni-erlangen.de/pub/doc/ISO/charsets/isofont101.tar.gz
+	! and manually converted from VGA to BDF format by
+	! Roman Czyborra <czyborra@cs.tu-berlin.de> on 94.10.21
+	! Kosta Kostis <kosta@live.robin.de> had composed iso06.f16 
+	! from Yossi Gil's codepage 864
+	
+1996-11-23  Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>
+
+	* etl14-unicode.bdf created by merging together ISO
+	8859-1,2,3,4,5,7,8,9 into Unicode subset
+
+	* etl16-unicode.bdf created - Fonts merged into a single one,
+	using ISO10646/Unicode encoding.
+
+	* etl24-unicode.bdf created - Fonts merged into a single one,
+	using Unicode encoding.
+
+1994-09-14  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl24 modified
+
+1996-04-26  Mark J. Reed <mark_reed@sware.com>
+
+	* etl14 (ISO8859-3) modified
+	
+1994-09-14  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl14 modified
+	
+	* etl16 modified
+	
+1993-04-28  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl16 (ISO8859-8) modified
+	
+	* etl24 modified - Hebrew glyphs become taller by 2 dots.
+	
+1993-03-10  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl16 (ISO8859-7) modified
+	
+1993-02-04  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl14 (ISO8859-8) modified
+	
+	* etl24 (ISO8859-8) modified - Latin-1 glyphs are replaced by
+	Hebrew glyphs.
+
+1992-12-01  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl16.bdf created
+	
+1992-09-14  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl14 (ISO8859-7) modified
+	
+1992-07-21  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl14 modified
+	
+1992-07-20  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl14 modified
+	
+1992-07-17  Takahashi N. <ntakahas@etl.go.jp>
+	
+	* etl14 modified
+	
+1992-07-09  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl24 modified - all BBX are changed to 12 24 0 -5
+
+1992-07-06  Libby Levison <libby@linc.cis.upenn.edu>
+
+	* etl24 (ISO8859-7) modified
+
+1992-07-04  Takahashi N. <ntakahas@etl.go.jp>
+  
+	* etl24 (ISO8859-7) modified - Latin-1 glyphs are replaced by
+	greek glyphs.
+
+1992-07-02  Takahashi N. <ntakahas@etl.go.jp>
+  
+	* etl24 (ISO8859-5) modified - Latin-1 glyphs are replaced by
+	cyrillic glyphs.
+
+1992-06-26  Takahashi N. <ntakahas@etl.go.jp>
+  
+	* etl24 (ISO8859-4) modified - Latin-1 glyphs are replaced by
+	Latin-4 glyphs.
+
+	* etl24 (ISO8859-9) modified - Latin-1 glyphs are replaced by
+	Latin-5 glyphs.
+
+1992-06-25  Takahashi N. <ntakahas@etl.go.jp>
+  
+	* etl24 (ISO8859-2) modified - Latin-1 glyphs are replaced by
+	Latin-2 glyphs.
+
+	* etl24 (ISO8859-3) modified - Latin-1 glyphs are replaced by
+	Latin-3 glyphs.
+
+1992-06-23  Takahashi N. <ntakahas@etl.go.jp>
+
+	* etl24 modified
+
+1992	     H. Kagotani <kagotani@cs.titech.ac.jp>
+	
+	* etl14 donated by H. Kagotani <kagotani@cs.titech.ac.jp>; public
+	domain font from Japan
+	
+1991-12-14  K.Handa <handa@etl.go.jp>
+  
+	* ISO8859-1 Latin-1 glyphs are added to etl24.bdf
+	This font is very suitable when used with: 
+	-jis-fixed-medium-r-normal--24-230-75-75-c-240-jisx0208.1983-0
+
+	This font was created by modifying fg-20.bdf distributed with
+	X.V11R3 under the directory contrib/fonts/bdf/oldx11.
+	The comment below is the original one.
+	-------------------------------------------------------------
+	the Lisp Machine name for this font was "20fg.ast"
+	-------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	
